@@ -190,8 +190,11 @@
   bottom: 0;
   max-width: 694px;
   width: 100%;
-  background-color: white;
+  background-color: #FFf;
   padding-top: 40px;
+  &.rightside-menu--close{
+    transform: translateX(1000%);
+  }
   &__close{
     background-color: transparent;
     border: none;
